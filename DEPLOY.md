@@ -4,7 +4,7 @@
    `<username>.github.io` (gives you https://<username>.github.io with no extra config).
 2. GitHub and LinkedIn links are set. A public email button was left off for now; add
    `<a class="btn" href="mailto:...">Email</a>` in the Contact section when ready.
-3. Add `assets/photo.jpg` (square, ~600px) and `assets/Amirtha_Ganesh_Pugazhendhi_Resume.pdf`.
+3. Add `assets/photo.jpg` (square, ~600px).
 4. From this folder:
    ```
    git init -b main
