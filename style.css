@@ -76,8 +76,9 @@ h1{font-size:clamp(38px,5.4vw,60px);line-height:1.05;letter-spacing:-.035em;marg
 .logos-h{margin:0 0 22px;text-align:center;font-size:13px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .logo-wall{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
 .logo-wall li{display:grid;place-items:center;height:76px;padding:12px 18px;border-radius:12px;background:var(--tile);border:1px solid var(--line)}
-.logo-wall img{max-height:40px;max-width:100%;object-fit:contain;filter:grayscale(1);opacity:.85;transition:filter .2s,opacity .2s}
-.logo-wall li:hover img{filter:none;opacity:1}
+.logo-wall img{max-height:40px;max-width:100%;object-fit:contain}
+.logo-wall li{transition:transform .15s,box-shadow .15s}
+.logo-wall li:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
 .fine{margin:16px 0 0;text-align:center;font-size:12px;color:var(--muted)}
 
 /* ---------- stats ---------- */
